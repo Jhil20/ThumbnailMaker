@@ -1,0 +1,107 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# FastAPI / Application
+# ==============================
+*.log
+logs/
+uploads/
+media/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+test-results/
+
+# ==============================
+# Type Checking / Linting
+# ==============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# Build / Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Generated Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Package Managers
+# ==============================
+poetry.lock.bak
+.pdm-python
+.pdm-build/
+
+# ==============================
+# Database
+# ==============================
+*.db
+*.sqlite3
+*.sqlite
+
+# ==============================
+# Docker
+# ==============================
+.docker/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
+*.orig
+.cache/
